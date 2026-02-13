@@ -1,4 +1,3 @@
-Rendered
 
 📊 Internship Market Analysis Dashboard
 An end-to-end data analysis project that scrapes internship data from Internshala, cleans and processes it using Python, and visualizes insights through an interactive Tableau dashboard.
