@@ -1,25 +1,30 @@
-Internship Market Analyzer 📊
-An end-to-end data project that scrapes, cleans, and visualizes 2,300+ technical internship listings to identify market trends, stipend benchmarks, and skill demands.
+📊 Internship Market Analysis
+🚀 Overview
 
-🛠️ Tech Stack
-Extraction: Python (BeautifulSoup, Requests)
+This project analyzes internship trends in Data Science, AI, and Web Development by scraping data from Internshala and performing data cleaning & EDA to understand market demand and stipend trends.
 
-Processing: Pandas, NumPy, Regex
+🛠 Tech Stack
 
-Visualization: Tableau, Seaborn, Matplotlib
+Python • Requests • BeautifulSoup • Pandas • Matplotlib • Seaborn • Jupyter
 
-🔄 Workflow
-Scrape: app.py collects live data across 11+ categories (AI, Web Dev, Data Science).
+📂 Workflow
 
-Clean: csv_cleaning.ipynb unifies messy location strings and removes duplicates.
+Web scraping (app.py)
 
-Analyze: internship_analysis.ipynb extracts numerical stipends and performs EDA.
+Data cleaning (csv_cleaning.ipynb)
 
-Dashboard: Exported data is visualized in Tableau to track market shifts.
+Exploratory Data Analysis (internship_analysis.ipynb)
 
-📈 Key Findings
-Remote vs. Office: Identification of the ratio of "Work from Home" roles vs. In-Office.
+Visualization of job demand & average stipend
 
-Skill Demand: Analysis of the most frequent tech stacks (Python, SQL, React) required by employers.
+📈 Key Insights
 
-Stipend Trends: Correlation between specific technical domains and average compensation.
+Web Development → Highest internship demand
+
+Data Science & AI → Strong demand with competitive stipends
+
+Specialized roles → Higher average stipends
+
+▶ Run
+pip install requests beautifulsoup4 pandas matplotlib seaborn
+python app.py
